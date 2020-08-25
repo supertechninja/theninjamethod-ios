@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18766DE324F5CA6100D49175 /* SettingsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18766DE224F5CA6100D49175 /* SettingsTabView.swift */; };
+		18766DE524F5CAE300D49175 /* ExercisesTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18766DE424F5CAE300D49175 /* ExercisesTabView.swift */; };
+		18766DE724F5CB0900D49175 /* ActivityTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18766DE624F5CB0900D49175 /* ActivityTabView.swift */; };
+		18F2541823787D3A008313FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2541723787D3A008313FB /* AppDelegate.swift */; };
+		18F2541A23787D3A008313FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2541923787D3A008313FB /* SceneDelegate.swift */; };
+		18F2541C23787D3A008313FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2541B23787D3A008313FB /* ContentView.swift */; };
+		18F2541E23787D3D008313FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F2541D23787D3D008313FB /* Assets.xcassets */; };
+		18F2542123787D3D008313FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F2542023787D3D008313FB /* Preview Assets.xcassets */; };
+		18F2542423787D3D008313FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F2542223787D3D008313FB /* LaunchScreen.storyboard */; };
+		18F2542F23787D3D008313FB /* The_Ninja_MethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2542E23787D3D008313FB /* The_Ninja_MethodTests.swift */; };
+		18F2543A23787D3D008313FB /* The_Ninja_MethodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2543923787D3D008313FB /* The_Ninja_MethodUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18F2542B23787D3D008313FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F2540C23787D3A008313FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F2541323787D3A008313FB;
+			remoteInfo = "The Ninja Method";
+		};
+		18F2543623787D3D008313FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F2540C23787D3A008313FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F2541323787D3A008313FB;
+			remoteInfo = "The Ninja Method";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18766DE224F5CA6100D49175 /* SettingsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTabView.swift; sourceTree = "<group>"; };
+		18766DE424F5CAE300D49175 /* ExercisesTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesTabView.swift; sourceTree = "<group>"; };
+		18766DE624F5CB0900D49175 /* ActivityTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTabView.swift; sourceTree = "<group>"; };
+		18F2541423787D3A008313FB /* The Ninja Method.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Ninja Method.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F2541723787D3A008313FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18F2541923787D3A008313FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18F2541B23787D3A008313FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18F2541D23787D3D008313FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F2542023787D3D008313FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18F2542323787D3D008313FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18F2542523787D3D008313FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F2542A23787D3D008313FB /* The Ninja MethodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Ninja MethodTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F2542E23787D3D008313FB /* The_Ninja_MethodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Ninja_MethodTests.swift; sourceTree = "<group>"; };
+		18F2543023787D3D008313FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F2543523787D3D008313FB /* The Ninja MethodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Ninja MethodUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F2543923787D3D008313FB /* The_Ninja_MethodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Ninja_MethodUITests.swift; sourceTree = "<group>"; };
+		18F2543B23787D3D008313FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F2541123787D3A008313FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F2542723787D3D008313FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F2543223787D3D008313FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18F2540B23787D3A008313FB = {
+			isa = PBXGroup;
+			children = (
+				18F2541623787D3A008313FB /* The Ninja Method */,
+				18F2542D23787D3D008313FB /* The Ninja MethodTests */,
+				18F2543823787D3D008313FB /* The Ninja MethodUITests */,
+				18F2541523787D3A008313FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18F2541523787D3A008313FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F2541423787D3A008313FB /* The Ninja Method.app */,
+				18F2542A23787D3D008313FB /* The Ninja MethodTests.xctest */,
+				18F2543523787D3D008313FB /* The Ninja MethodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F2541623787D3A008313FB /* The Ninja Method */ = {
+			isa = PBXGroup;
+			children = (
+				18F2541723787D3A008313FB /* AppDelegate.swift */,
+				18F2541923787D3A008313FB /* SceneDelegate.swift */,
+				18F2541B23787D3A008313FB /* ContentView.swift */,
+				18F2541D23787D3D008313FB /* Assets.xcassets */,
+				18F2542223787D3D008313FB /* LaunchScreen.storyboard */,
+				18F2542523787D3D008313FB /* Info.plist */,
+				18F2541F23787D3D008313FB /* Preview Content */,
+				18766DE224F5CA6100D49175 /* SettingsTabView.swift */,
+				18766DE424F5CAE300D49175 /* ExercisesTabView.swift */,
+				18766DE624F5CB0900D49175 /* ActivityTabView.swift */,
+			);
+			path = "The Ninja Method";
+			sourceTree = "<group>";
+		};
+		18F2541F23787D3D008313FB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				18F2542023787D3D008313FB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18F2542D23787D3D008313FB /* The Ninja MethodTests */ = {
+			isa = PBXGroup;
+			children = (
+				18F2542E23787D3D008313FB /* The_Ninja_MethodTests.swift */,
+				18F2543023787D3D008313FB /* Info.plist */,
+			);
+			path = "The Ninja MethodTests";
+			sourceTree = "<group>";
+		};
+		18F2543823787D3D008313FB /* The Ninja MethodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18F2543923787D3D008313FB /* The_Ninja_MethodUITests.swift */,
+				18F2543B23787D3D008313FB /* Info.plist */,
+			);
+			path = "The Ninja MethodUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F2541323787D3A008313FB /* The Ninja Method */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F2543E23787D3E008313FB /* Build configuration list for PBXNativeTarget "The Ninja Method" */;
+			buildPhases = (
+				18F2541023787D3A008313FB /* Sources */,
+				18F2541123787D3A008313FB /* Frameworks */,
+				18F2541223787D3A008313FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Ninja Method";
+			productName = "The Ninja Method";
+			productReference = 18F2541423787D3A008313FB /* The Ninja Method.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18F2542923787D3D008313FB /* The Ninja MethodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F2544123787D3E008313FB /* Build configuration list for PBXNativeTarget "The Ninja MethodTests" */;
+			buildPhases = (
+				18F2542623787D3D008313FB /* Sources */,
+				18F2542723787D3D008313FB /* Frameworks */,
+				18F2542823787D3D008313FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F2542C23787D3D008313FB /* PBXTargetDependency */,
+			);
+			name = "The Ninja MethodTests";
+			productName = "The Ninja MethodTests";
+			productReference = 18F2542A23787D3D008313FB /* The Ninja MethodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18F2543423787D3D008313FB /* The Ninja MethodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F2544423787D3E008313FB /* Build configuration list for PBXNativeTarget "The Ninja MethodUITests" */;
+			buildPhases = (
+				18F2543123787D3D008313FB /* Sources */,
+				18F2543223787D3D008313FB /* Frameworks */,
+				18F2543323787D3D008313FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F2543723787D3D008313FB /* PBXTargetDependency */,
+			);
+			name = "The Ninja MethodUITests";
+			productName = "The Ninja MethodUITests";
+			productReference = 18F2543523787D3D008313FB /* The Ninja MethodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F2540C23787D3A008313FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Joshua McWilliams";
+				TargetAttributes = {
+					18F2541323787D3A008313FB = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					18F2542923787D3D008313FB = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 18F2541323787D3A008313FB;
+					};
+					18F2543423787D3D008313FB = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 18F2541323787D3A008313FB;
+					};
+				};
+			};
+			buildConfigurationList = 18F2540F23787D3A008313FB /* Build configuration list for PBXProject "The Ninja Method" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18F2540B23787D3A008313FB;
+			productRefGroup = 18F2541523787D3A008313FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F2541323787D3A008313FB /* The Ninja Method */,
+				18F2542923787D3D008313FB /* The Ninja MethodTests */,
+				18F2543423787D3D008313FB /* The Ninja MethodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F2541223787D3A008313FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F2542423787D3D008313FB /* LaunchScreen.storyboard in Resources */,
+				18F2542123787D3D008313FB /* Preview Assets.xcassets in Resources */,
+				18F2541E23787D3D008313FB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F2542823787D3D008313FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F2543323787D3D008313FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F2541023787D3A008313FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F2541823787D3A008313FB /* AppDelegate.swift in Sources */,
+				18766DE524F5CAE300D49175 /* ExercisesTabView.swift in Sources */,
+				18F2541A23787D3A008313FB /* SceneDelegate.swift in Sources */,
+				18F2541C23787D3A008313FB /* ContentView.swift in Sources */,
+				18766DE324F5CA6100D49175 /* SettingsTabView.swift in Sources */,
+				18766DE724F5CB0900D49175 /* ActivityTabView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F2542623787D3D008313FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F2542F23787D3D008313FB /* The_Ninja_MethodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F2543123787D3D008313FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F2543A23787D3D008313FB /* The_Ninja_MethodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18F2542C23787D3D008313FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F2541323787D3A008313FB /* The Ninja Method */;
+			targetProxy = 18F2542B23787D3D008313FB /* PBXContainerItemProxy */;
+		};
+		18F2543723787D3D008313FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F2541323787D3A008313FB /* The Ninja Method */;
+			targetProxy = 18F2543623787D3D008313FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18F2542223787D3D008313FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F2542323787D3D008313FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18F2543C23787D3E008313FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18F2543D23787D3E008313FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F2543F23787D3E008313FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"The Ninja Method/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "The Ninja Method/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mcwilliams.The-Ninja-Method";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18F2544023787D3E008313FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"The Ninja Method/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "The Ninja Method/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mcwilliams.The-Ninja-Method";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18F2544223787D3E008313FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Ninja MethodTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mcwilliams.The-Ninja-MethodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Ninja Method.app/The Ninja Method";
+			};
+			name = Debug;
+		};
+		18F2544323787D3E008313FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Ninja MethodTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mcwilliams.The-Ninja-MethodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Ninja Method.app/The Ninja Method";
+			};
+			name = Release;
+		};
+		18F2544523787D3E008313FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Ninja MethodUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mcwilliams.The-Ninja-MethodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Ninja Method";
+			};
+			name = Debug;
+		};
+		18F2544623787D3E008313FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Ninja MethodUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mcwilliams.The-Ninja-MethodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Ninja Method";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F2540F23787D3A008313FB /* Build configuration list for PBXProject "The Ninja Method" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F2543C23787D3E008313FB /* Debug */,
+				18F2543D23787D3E008313FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F2543E23787D3E008313FB /* Build configuration list for PBXNativeTarget "The Ninja Method" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F2543F23787D3E008313FB /* Debug */,
+				18F2544023787D3E008313FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F2544123787D3E008313FB /* Build configuration list for PBXNativeTarget "The Ninja MethodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F2544223787D3E008313FB /* Debug */,
+				18F2544323787D3E008313FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F2544423787D3E008313FB /* Build configuration list for PBXNativeTarget "The Ninja MethodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F2544523787D3E008313FB /* Debug */,
+				18F2544623787D3E008313FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F2540C23787D3A008313FB /* Project object */;
+}
